@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MusicPlayer
+comment1.params=
+comment1.target=javax.sound.sampled.Clip\ playBackgroundTheme()
+comment2.params=
+comment2.target=void\ newVolume()
+comment3.params=
+comment3.target=void\ pauseBackgroundTheme()
+comment4.params=
+comment4.target=void\ resumeBackgroundTheme()
+comment5.params=
+comment5.target=void\ stopBackgroundTheme()
+comment6.params=num
+comment6.target=void\ playSound(int)
+numComments=7
