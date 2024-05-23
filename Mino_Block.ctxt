@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Mino_Block
-comment1.params=ghost
-comment1.target=Mino_Block(boolean)
-comment2.params=
-comment2.target=int\ getMinoNumber()
-comment3.params=x\ y
-comment3.target=void\ setXY(int,\ int)
-numComments=4

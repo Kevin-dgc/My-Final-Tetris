@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Block
-comment1.params=c
-comment1.target=Block(java.awt.Color)
-comment2.params=c\ ghost
-comment2.target=Block(java.awt.Color,\ boolean)
-comment3.params=g2
-comment3.target=void\ draw(java.awt.Graphics2D)
-numComments=4

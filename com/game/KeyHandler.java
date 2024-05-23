@@ -32,7 +32,7 @@ public class KeyHandler implements KeyListener{
          if(keyCode == KeyEvent.VK_SHIFT){
             shiftPressed = true;
         }
-        if(keyCode == KeyEvent.VK_SPACE){
+        if(keyCode == KeyEvent.VK_ENTER){
             if(num % 2 == 0){
                 paused = true;
             }
@@ -45,7 +45,7 @@ public class KeyHandler implements KeyListener{
         if(keyCode == KeyEvent.VK_ESCAPE){
             endGame = true;
         }
-        if(keyCode == KeyEvent.VK_ENTER){
+        if(keyCode == KeyEvent.VK_SPACE){
             enterPressed = true;
         }
         if(keyCode == KeyEvent.VK_BACK_SPACE){
@@ -69,7 +69,7 @@ public class KeyHandler implements KeyListener{
          if(keyCode == KeyEvent.VK_D || keyCode == KeyEvent.VK_RIGHT){
             rightPressed = false;
         }
-        if(keyCode == KeyEvent.VK_SPACE){
+        if(keyCode == KeyEvent.VK_ENTER){
         }
         if(keyCode == KeyEvent.VK_SHIFT){
             shiftPressed = false;
@@ -89,7 +89,7 @@ public class KeyHandler implements KeyListener{
             }
             MusicPlayer.newVolume();
         }
-        if(keyCode == KeyEvent.VK_ENTER){
+        if(keyCode == KeyEvent.VK_SPACE){
             enterPressed = false;
         }
         if(keyCode == KeyEvent.VK_BACK_SPACE){

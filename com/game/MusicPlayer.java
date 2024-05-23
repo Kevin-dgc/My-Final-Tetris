@@ -1,6 +1,5 @@
-import javax.sound.sampled.*;
-import java.io.File;
 import java.io.*;
+import javax.sound.sampled.*;
 
 
 public class MusicPlayer{
@@ -13,7 +12,7 @@ public class MusicPlayer{
     public static double volumeNUM = 5;
     
     public static Clip playBackgroundTheme() {
-         try (InputStream inputStream = MusicPlayer.class.getResourceAsStream("/theme.wav");
+         try (InputStream inputStream = MusicPlayer.class.getResourceAsStream("assets/theme.wav");
             BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream)) {
              
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(bufferedInputStream);            
@@ -65,19 +64,19 @@ public class MusicPlayer{
     public static void playSound(int num){
         String filePath = "";
         if(num == 1){
-            filePath = "/rotation.wav";
+            filePath = "assets/rotation.wav";
         }
         if(num == 2){
-            filePath = "/delete line.wav";
+            filePath = "assets/delete line.wav";
         }
         if(num == 3){
-            filePath = "/touch floor.wav";
+            filePath = "assets/touch floor.wav";
         }
         if(num == 4){
-            filePath = "/gameover.wav";
+            filePath = "assets/gameover.wav";
         }
         if(num == 5){
-            filePath = "/theme.wav";
+            filePath = "assets/theme.wav";
         }
          try (InputStream inputStream = MusicPlayer.class.getResourceAsStream(filePath);
          BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream)) {
