@@ -15,3 +15,5 @@ Use
 # Commands to run
 * javac *.java
 * java Main
+# Or Easy for Linux
+* ./run.sh
