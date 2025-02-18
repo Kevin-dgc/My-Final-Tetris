@@ -3,7 +3,7 @@
 This a Tetris clone for AP Computer Science A Final Project.
 Use
 
-#Controls:
+# Controls:
 * left / right arrow = a / d = move left / right
 * down arrow = s = move down one
 * space = drop all the way down
